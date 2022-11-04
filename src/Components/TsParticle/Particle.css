@@ -1,0 +1,12 @@
+#tsparticles {
+    height: 400px;
+  
+  }
+  
+  
+  @media (max-width: 767px) {
+    #tsparticles {
+      height: 300px;
+  
+    }
+  }

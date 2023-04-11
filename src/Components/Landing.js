@@ -20,19 +20,19 @@ const Landing = () => {
                         </label>
                         <p className='md:hidden text-xl text-primary'>Portfolio of Shahidul Islam</p>
                     </div>
-                    <Outlet/>
+                    <Outlet />
                 </div>
                 <div class="drawer-side">
                     <label for="my-drawer-2" class="drawer-overlay"></label>
                     <ul class="menu p-4 overflow-y-auto w-56 bg-secondary mr-5 text-base-content h-screen">
                         {/* <!-- Sidebar content here --> */}
-                        <div className='bg-secondary pb-3'>
+                        <div className='bg-secondary '>
                             <li className='block mx-auto'>
 
                                 <Avatar /></li>
                             <p className='hover:text-primary text-center text-xl font-semibold '>Shahidul Islam</p>
                             <p className='text-center'>Jr Web Developer</p>
-                            <p className='text-center'>Sales Team Leader</p>
+                            <p className='text-center'>Ex Manager</p>
                         </div>
 
                         <div className='bg-secondary mt-5 py-3'>

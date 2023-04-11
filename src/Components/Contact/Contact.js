@@ -31,7 +31,7 @@ const Contact = () => {
             <div className='mt-16 md:flex w-full items-center justify-center pr-7'>
                 <div className='pl-3 mx-7 md:w-1/2 bg-secondary h-[390px] rounded-xl'>
                     <p><MdLocationOn data-aos="fade-in" className='w-14 h-14 text-primary block mx-auto mt-5' /> </p>
-                    <p className='text-center text-xl'>Cornel Hat, Chattagram, Bangladesh. </p>
+                    <p className='text-center text-xl'>Pabna Sadar, Pabna, Bangladesh. </p>
 
                     <p><MdMarkEmailUnread data-aos="fade-in" className='w-12 h-12 text-primary block mx-auto mt-7' /> </p>
                     <p className='text-center md:text-xl'>shahidul.islam.1691.bd@gmail.com

@@ -12,7 +12,7 @@ const WebCard1 = () => {
     return (
         <div >
             <div
-                class="card w-full bg-base-100 shadow-xl">
+                class="card w-full bg-base-100 shadow-xl mt-10">
                 <figure class="px-10 pt-10">
                     <img src="https://i.ibb.co/TY71MVc/mo-1.jpg" alt="Shoes" class="rounded-xl" />
                 </figure>

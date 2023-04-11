@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const WebCard2 = () => {
     return (
         <div>
-            <div class="card w-full bg-base-100 shadow-xl">
+            <div class="card w-full bg-base-100 shadow-xl mt-10">
                 <figure class="px-10 pt-10">
                     <img src="https://i.ibb.co/tQtWkfM/deco-1.jpg" alt="Shoes" class="rounded-xl" />
                 </figure>

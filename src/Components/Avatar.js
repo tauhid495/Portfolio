@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../Images/profile.jpg'
+import profilepic from './assets/profile.jpg'
 
 const Avatar = () => {
     return (
@@ -7,7 +7,7 @@ const Avatar = () => {
 
             <div class="avatar">
                 <div class="w-40  border-yellow-500 rounded-full">
-                    <img src={profile} alt='pictur' />
+                    <img src={profilepic} alt='pictur' />
                 </div>
             </div>
             <div class="flex h-3 w-4 mt-[-19px]">

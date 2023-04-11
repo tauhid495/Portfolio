@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import image1 from '../assets/todo-1.jpg'
 
 const WebCard3 = () => {
     return (
         <div>
-            <div class="card w-full bg-base-100 shadow-xl">
+            <div class="card w-full bg-base-100 shadow-xl mt-10">
                 <figure class="px-10 pt-10">
-                    <img src="https://i.ibb.co/ssjj0qc/rev-1.jpg" alt="Shoes" class="rounded-xl" />
+                    <img src={image1} alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title">Gadget Review</h2>
-                    <p>* Gadget Review website.</p>
-                    <p>* Review section added.</p>
-                    <p>* Statistics chart used</p>
+                    <h2 class="card-title">To-do App</h2>
+                    <p>* This site for listing to-do tasks.</p>
+                    <p>* Separately shows completed tasks.</p>
+                    <p>* MongoDB database added.</p>
                     <div class="card-actions">
                         <Link to='/projectDetail'><button class="btn btn-primary">Show Detail</button></Link>
                     </div>

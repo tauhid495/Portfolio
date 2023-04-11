@@ -1,20 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import moimg from '../assets/mo-1.jpg'
+
+
 
 const WebCard1 = () => {
-    useEffect(() => {
-        AOS.init({ duration: 2000 });
-    }, []);
 
     return (
         <div >
             <div
                 class="card w-full bg-base-100 shadow-xl mt-10">
                 <figure class="px-10 pt-10">
-                    <img src="https://i.ibb.co/TY71MVc/mo-1.jpg" alt="Shoes" class="rounded-xl" />
+                    <img src={moimg} alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">MOtools</h2>

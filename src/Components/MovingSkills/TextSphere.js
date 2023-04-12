@@ -32,6 +32,7 @@ const TextSphere = () => {
                 "Render",
                 "Heroku",
                 "TsParticle",
+                "VsCode",
             ];
 
             const options = {

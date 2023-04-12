@@ -10,8 +10,8 @@ const Banner = () => {
             <div className="absolute w-full md:pr-5 -z-10">
                 <Particle />
             </div>
-            <img className='absolute h-[300px] md:h-[400px] w-full md:pr-5 -z-20' src="https://i.ibb.co/LdcDpkH/bg.png" alt="" srcset="" />
-            <div className=" hero h-[300px] md:h-[400px]">
+            <img className='absolute h-[300px] md:h-[350px] w-full md:pr-5 -z-20' src="https://i.ibb.co/LdcDpkH/bg.png" alt="" srcset="" />
+            <div className=" hero h-[300px] md:h-[350px]">
                 <div className="hero-overlay bg-opacity-30"></div>
                 <div className=" text-center ">
                     <div data-aos="fade-in"

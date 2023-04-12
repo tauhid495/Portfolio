@@ -2,8 +2,11 @@ import React from 'react';
 import { FaHtml5, FaNodeJs, FaReact, FaStripe, } from 'react-icons/fa';
 import { FaBootstrap } from 'react-icons/fa';
 import { DiCss3 } from 'react-icons/di';
-import { SiFirebase, SiHeroku, SiMongodb, SiNodemon, SiRedux, SiTailwindcss } from 'react-icons/si';
 import { TbBrandJavascript } from 'react-icons/tb';
+import { SiFirebase, SiHeroku, SiMongodb, SiRedux, SiTailwindcss } from 'react-icons/si';
+
+
+// SiNodemon,
 
 const Skills = () => {
     return (
@@ -49,15 +52,10 @@ const Skills = () => {
                     <span className="tooltip" data-tip="NodeJS">
                         <FaNodeJs className='w-12 h-12 text-[#669966]' />
                     </span>
-                    {/* <span className="tooltip" data-tip="Nodemon">
-                        <SiNodemon className='w-12 h-12 text-[#66CC66]' />
-                    </span> */}
+
                     <span className="tooltip" data-tip="Redux">
                         <SiRedux className='w-12 h-12 text-[#9966CC]' />
                     </span>
-
-
-
                 </div>
             </div>
         </div>
